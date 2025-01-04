@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Coding Conf</title>
+        <link rel="stylesheet"  href="./styles/index/index.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            <a>                
+                <span id="svg">icon</span>
+                <span>Coding Conf</span>
+            </a>
+        </h1>
+    </header>
+    <main>
+        <hgroup>
+            <h2>Your Journey to Coding Conf</h2>
+            <p>Segure your spot at next year's biggest coding conference</p>
+        </hgroup>
+        <form id="form-coding_conf_ticket" action="./pages/show-ticket.html">
+            <fieldset id="input-avatar_image-group" class="input-image_file-group">
+                <label for="input-avatar_image">
+                    <input type="file" id="input-avatar_image" name="avatar_image" accept="image/png, image/jpeg" />
+                </label>
+                <label for="input-avatar_image">
+                    <span>icon</span>
+                    <span>Uploud your photo (JPG or PNG, max size: 500KB)</span>
+                </label>
+            </fieldset>
+            <fieldset id="input-full_name-group" class="input-text-group">
+                <label for="input-full_name"></label>
+                <input type="text" id="input-full_name" name="full_name">
+                <label for="input-full_name"></label>
+            </fieldset>
+            <fieldset id="input-email-group" class="input-email-group">
+                <label for="input-email"></label>
+                <input type="email" id="input-email" name="email">
+                <label for="input-email">
+                    <span>icon</span>
+                    <span>Please enter a valid address</span>
+                </label>
+            </fieldset>
+            <fieldset id="input-git_hub_username-group" class="input-text-group">
+                <label for="input-git_hub_username"></label>
+                <input type="text" id="input-git_hub_username" name="git_hub_username">
+                <label for="input-git_hub_username"></label>
+            </fieldset>
+            <button>Create My Ticket</button>
+        </form>
+    </main>
+</body>
+</html>
+<script src="./dist/bundle.js"></script>
+<script src="./index.js"></script>
+<script>
+    aaa()
+</script>

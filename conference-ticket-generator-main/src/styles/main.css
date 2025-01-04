@@ -1,0 +1,26 @@
+html {
+    font-family: "Inconsolata", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+}
+
+body {
+    background-color: hsl(247, 69%, 10%);
+    background-image: url(https://i.postimg.cc/MTbtGkNQ/background-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+@media (max-width: 1248px) {
+    body {
+        background-image: url(https://i.postimg.cc/6QZYD4hz/background-tablet.png);
+    }
+}
+
+@media (max-width: 640px) {
+    body {
+        background-image: url(https://i.postimg.cc/ht62y1Vf/background-mobile.png);
+    }
+}
