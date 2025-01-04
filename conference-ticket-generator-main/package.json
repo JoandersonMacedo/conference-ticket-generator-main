@@ -1,9 +1,12 @@
 {
   "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-plugin-transform-imports": "^2.0.0",
     "esbuild": "^0.24.2",
     "glob": "^11.0.0"
   },
   "scripts": {
-   "build": "node generate-entry.js && node esbuild.config.js"
+    "build": "node generate-entry.js && node esbuild.config.js"
   }
 }
